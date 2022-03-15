@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section></section>
+    </main>
+    <!--
+    <form action="">
+        <label for="hour-user">
+            <span>Hora: </span>
+            <input type="time" id="hour-user" name="hour-user">
+        </label>
+
+        <label for="day-user">
+            <span>Día: </span>
+            <input type="date" id="day-user" name="day-user">
+        </label>
+
+        <label for="week-user">
+            <span>Semana: </span>
+            <input type="week" id="week-user" name="week-user">
+        </label>
+
+        <label for="month-user">
+            <span>Mes: </span>
+            <input type="month" id="month-user" name="month-user">
+        </label>
+
+        <input type="submit"> 
+    </form> -->
+
+    <form action="">
+        <label for="calendar-user">
+            <span>Calendario</span>
+            <input type="datetime-local" id="calendar-user" name="calendar-user">
+        </label>
+        <input type="submit">
+    </form>
+
+    <form action="">
+        <label for="pet">
+            <span>Tienes mascota ?</span>
+            <input value="Si" type="checkbox" id="pet" name="pet"> 
+            <!-- El valor value sirve para saber que valor se va a enviar -->
+        </label>
+        
+        <label for="girlfriend">
+            <span>Tienes novia ?</span>
+            <input value="Si" type="radio" id="girlfriend" name="girlfriend"> 
+            <!-- El valor value sirve para saber que valor se va a enviar -->
+        </label>
+
+        <label for="email-user">
+            <spam> Email: </spam>
+            <input type="email" id="email-user" name="email-user">
+        </label>
+
+        <label for="pass-user">
+            <spam> Contrseña: </spam>
+            <input type="password" id="pass-user" name="pass-user">
+        </label>
+
+        <label for="file-user">
+            <spam> Archivo: </spam>
+            <!-- El atributo aceept es para definir los tipos de archivo que puede aceptar -->
+            <input type="file" id="file-user" name="file-user"> 
+        </label>
+
+        <label for="hidden-user">
+            <spam> Archivo: </spam>
+            <!-- El atributo hidden no se muestra al ususario pero se envia al server -->
+            <input value="Como estas" type="hidden" id="hidden-user" name="hidden-user"> 
+        </label>
+
+        <label for="image-user">
+            <spam> Archivo: </spam>
+            <!-- El atributo hidden no se muestra al ususario pero se envia al server -->
+            <input type="image" id="image-user" name="image-user" src="img/one_piece/small.jpg" 
+            width="25%"> 
+        </label>
+
+
+        <input type="submit">
+    </form>
+</body>
+</html>
