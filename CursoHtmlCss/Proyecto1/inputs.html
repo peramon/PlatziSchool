@@ -33,7 +33,7 @@
         </label>
 
         <input type="submit"> 
-    </form> -->
+    </form> 
 
     <form action="">
         <label for="calendar-user">
@@ -41,19 +41,20 @@
             <input type="datetime-local" id="calendar-user" name="calendar-user">
         </label>
         <input type="submit">
-    </form>
+    </form>-->
 
+    <!-- 
     <form action="">
         <label for="pet">
             <span>Tienes mascota ?</span>
             <input value="Si" type="checkbox" id="pet" name="pet"> 
-            <!-- El valor value sirve para saber que valor se va a enviar -->
+            El valor value sirve para saber que valor se va a enviar 
         </label>
         
         <label for="girlfriend">
             <span>Tienes novia ?</span>
             <input value="Si" type="radio" id="girlfriend" name="girlfriend"> 
-            <!-- El valor value sirve para saber que valor se va a enviar -->
+            <!-- El valor value sirve para saber que valor se va a enviar 
         </label>
 
         <label for="email-user">
@@ -68,24 +69,46 @@
 
         <label for="file-user">
             <spam> Archivo: </spam>
-            <!-- El atributo aceept es para definir los tipos de archivo que puede aceptar -->
+            <!-- El atributo aceept es para definir los tipos de archivo que puede aceptar 
             <input type="file" id="file-user" name="file-user"> 
         </label>
 
         <label for="hidden-user">
             <spam> Archivo: </spam>
-            <!-- El atributo hidden no se muestra al ususario pero se envia al server -->
+            <!-- El atributo hidden no se muestra al ususario pero se envia al server 
             <input value="Como estas" type="hidden" id="hidden-user" name="hidden-user"> 
         </label>
 
         <label for="image-user">
             <spam> Archivo: </spam>
-            <!-- El atributo hidden no se muestra al ususario pero se envia al server -->
+            <!-- El atributo hidden no se muestra al ususario pero se envia al server
             <input type="image" id="image-user" name="image-user" src="img/one_piece/small.jpg" 
             width="25%"> 
         </label>
+        <input type="submit">
+    </form>-->
 
+    <form>
+        <label for="name-user">
+            <spam>Nombre: </spam>
+            <!-- Autocomplete sirve para poner info que el usuario haya puesto antes -->
+            <input type="text" id="name-user" name="name-user" autocomplete="name" required>
+        </label>
 
+        <label for="email-user">
+            <spam>Correo: </spam>
+            <input type="email" id="email-user" name="email-user" autocomplete="email" required>
+        </label>
+
+        <label for="country-user">
+            <spam>País: </spam>
+            <input type="text" id="country-user" name="country-user" autocomplete="country" required>
+        </label>
+
+        <label for="postal-code-user">
+            <spam>Código Postal: </spam>
+            <input type="text" id="postal-code-user" name="postal-code-user" autocomplete="postal-code" required>
+        </label>
         <input type="submit">
     </form>
 </body>
