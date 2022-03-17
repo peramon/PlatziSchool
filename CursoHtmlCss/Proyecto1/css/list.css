@@ -1,0 +1,14 @@
+*{
+    
+}
+
+#titulo {
+    text-align: center;
+    font-size: 2em;
+    color: brown;
+}
+
+.lista-principal {
+    color: brown;
+    font: 1em sans-serif;
+}
