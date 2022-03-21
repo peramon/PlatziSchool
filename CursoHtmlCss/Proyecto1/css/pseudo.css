@@ -35,3 +35,21 @@
     content: " + ";
 }
 
+p::first-letter{
+    font-size: 250%;
+}
+
+#main-section__p::first-line{
+    color: red;
+}
+
+#main-section__p::selection{
+    background-color: aqua;
+}
+
+input::placeholder {
+    color: brown;
+    font-size: large;
+    font-style: italic;
+}
+
