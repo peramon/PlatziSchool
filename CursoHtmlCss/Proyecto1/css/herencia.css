@@ -6,3 +6,9 @@ html {
 h1 {
     font-size: inherit; /* Herencia H1 toma los valores del padre MAIN*/
 }
+
+/*Orden de declaracion
+1. Importancia
+2. Especifidad
+3. Orden de las fuentes*/
+
